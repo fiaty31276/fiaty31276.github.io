@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.cv {
+    width: 21cm;
+    height: 29.7cm;
+    margin: 1cm auto;
+    padding: 2cm;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.left{
+    width: 65%;
+    height: 100%;
+}
+
+.right{
+    width: 35%;
+    height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Cabin&display=swap');
