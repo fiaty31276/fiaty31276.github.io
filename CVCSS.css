@@ -2,26 +2,96 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-image: url(https://wallpaperaccess.com/full/250769.png);
 }
 
 .cv {
     width: 21cm;
     height: 29.7cm;
     margin: 1cm auto;
-    padding: 2cm;
-    background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Cabin';
+    background-color: #ffffff;
+}
+
+.contain{
+    display: flex;
+    flex-direction: row;
 }
 
 .left{
-    width: 65%;
-    height: 100%;
+    width: 45%;
+    height: 29.7cm;
+    border: rgb(64, 140, 255) 5px;
+    flex: none;
 }
 
 .right{
-    width: 35%;
-    height: 100%;
+    width: 54%;
+    height: 29.7cm;
+    flex: 1;
+
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Almarai&family=Cabin&display=swap');
+.topl{
+    background-color: rgb(64, 140, 255);
+    height: 340px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 70px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 130px;
+}
+
+.lefttabpic{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: rgb(252, 255, 57);
+    border-style: dotted;
+  }
+
+.btinfo{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.btinfo2{
+    padding-top: 90px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.btinfor{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+}
+
+
+.btinfor2{
+    margin-top: 80px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.topic{
+    background-color: #321dad;
+    height: fit-content;
+    width: 150px;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 28%;
+}
+
