@@ -108,6 +108,10 @@
     flex-direction: column;
     margin-top: 15px;
   }
+
+  li{
+    list-style: disc;
+  }
   
   .PI{
     border-radius: 25px;
