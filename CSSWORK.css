@@ -21,7 +21,7 @@
   .Top{
     width: 100%;
     background-color:#6499E9; 
-    font-family: 'Pixelify Sans';
+    font-family: 'Playpen Sans';
     height: fit-content
   }
 
@@ -127,8 +127,6 @@
   .subpic{
     height: 23px;
   }
-
- 
   
   .topicbox{
     background-color: #A6F6FF;
@@ -142,8 +140,6 @@
     text-align: center;
     margin-bottom: 10px;
   }
-
-  
 
   .phonebtn{
     border-radius: 8px;
@@ -199,6 +195,20 @@
 
   .gitbtn:hover{
     background-color: #000000;
+    color: white;
+    transition-duration: 0.4s;
+  }
+
+  .dlbtn{
+    border-radius: 8px;
+    border: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+  }
+
+  .dlbtn:hover{
+    background-color: #ff0000;
     color: white;
     transition-duration: 0.4s;
   }
